@@ -15,7 +15,7 @@ public class UniqueWords
       {		 for (int j = 0; j < list.size(); j++)
 		 {
 			if (list.get(i).equals(list.get(j))) {  //added if statement
-				count++;							//increment count
+				count++;	//increment count
 			}
 		 }
       }
